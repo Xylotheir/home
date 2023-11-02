@@ -1,0 +1,273 @@
+body {
+    font-family:Comic Sans MS;
+    background-color:#40e0d0;
+}
+h1 {
+    color:#191970;
+}
+#h{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-technological-sense-geometric-line-simple-image_19419.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 25%;
+}
+.b13 {
+    background-color:#30d0c0;
+}
+.b12 {
+    background-color:#40e0d0;
+}
+.b11 {
+    background-color:#51f1e0;
+}
+.b23 {
+    background-color:#7a007a;
+}
+.b22 {
+    background-color:#8b008b;
+}
+.b21 {
+    background-color:#9c119c;
+}
+.b33 {
+    background-color:#080860;
+}
+.b32 {
+    background-color:#191970;
+}
+.b31 {
+    background-color:#2a2a81;
+}
+.b41 {
+    background-color:#f19151;
+}
+.b42 {
+    background-color:#e08040;
+}
+.b43 {
+    background-color:#d07030;
+}
+.b51 {
+    background-color:#f151b1;
+}
+.b52 {
+    background-color:#e040a0;
+}
+.b53 {
+    background-color:#d03090;
+}
+.t3l {
+    color: hsl(240, 64%, 74%);
+}
+.t3d {
+    color: hsl(240, 64%, 74%);
+}
+.t3d {
+    color: hsl(240, 64%, 34%);
+}
+.t4l {
+    color: hsl(24, 72%, 74%);
+}
+.t4d {
+    color: hsl(24, 72%, 34%);
+}
+.t5l {
+    color: hsl(324, 72%, 74%);
+}
+.t5d {
+    color: hsl(324, 72%, 34%);
+}
+.t1l {
+    color:	hsl(174, 72%, 74%);
+}
+.t1d {
+    color:	hsl(174, 72%, 34%);
+}
+.t2l {
+    color:hsl(300, 80%, 74%);
+}
+.t2l {
+    color:hsl(300, 80%, 34%);
+}
+code {
+    display:block;
+}
+@keyframes rh {
+    10% {background-color:orange;}
+    20% {background-color:yellow;}
+    30% {background-color:lightgreen}
+    40% {background-color:green;}
+    50% {background-color:cyan;}
+    60% {background-color:lightblue;}
+    70% {background-color:blue;}
+    80% {background-color:indigo;}
+    90% {background-color:darkpurple;}
+    100% {background-color:purple;}
+}
+p::selection {
+    font-size:100px;
+    font-style:italic;
+    background-color:#000;
+}
+@keyframes rainbow {
+    10% {color:orange;}
+    20% {color:yellow;}
+    30% {color:lightgreen}
+    40% {color:green;}
+    50% {color:cyan;}
+    60% {color:lightblue;}
+    70% {color:blue;}
+    80% {color:indigo;}
+    90% {color:darkpurple;}
+    100% {color:purple;}
+}
+@keyframes ri {
+    100% {filter: hue-rotate(360deg);}
+}
+p:hover { 
+    animation: 3s infinite rainbow;
+}
+#h:hover {
+    animation: 2s infinite ri;
+}
+div.square:active {
+    transform: rotate(360deg);
+    width: 200px;
+    height: 200px;
+}
+div.square {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;
+    transition: 1s;
+    /*transition: transform 1s, width 1s, height 1s;*/
+    padding: 10px;
+    margin: 10px;
+}
+p {
+    transition: font-size 0.5s;
+}
+button {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    outline: none;
+    text-align:center;
+}
+button.clickable:hover {
+    background-color:#44aaff;
+}
+button.clickable:active {
+    background-color:#2288ee;
+}
+button.unclickable:hover {
+    background-color:#555;
+}
+button.unclickable:active {
+    background-color:#555;
+}
+button.unclickable {
+    cursor: not-allowed;
+}
+iframe {
+    width:800px;
+    height:500px;
+}
+code::selection {
+    color:lime;
+    background-color:black;
+    font-family:monospace;
+}
+#button {
+    background-image:url("https://media.tenor.com/yheo1GGu3FwAAAAC/rick-roll-rick-ashley.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+div.rectangle {
+    width: 300px;
+    height: 150px;
+    background-color: DarkBlue;
+    color: white;
+    transition: background-color 2s, width 3s, color 0.5s;
+    margin: 10px;
+}
+div.rectangle:active {
+    background-color: yellow;
+    color: black;
+    width: 400px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */
+  background: #cfd8dc; /* 4 */
+  background-color:coral;
+  position: sticky;
+  top: 0;
+  z-index:1000000000;
+}
+
+nav ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/* 
+  Extra small devices (phones, 600px and down) 
+*/
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  nav li {
+    padding: 0.5rem 0;
+  }
+}
+nav h2 {
+    color:black;
+}
+nav img {
+    height:10px;
+    width:10px;
+}
+nav button {
+    background:none;
+    border-style:none;
+}
+nav button:hover {
+    background-color:#ee6e40;
+    border-style:solid;
+    border-color:#ee6e40;
+    border-radius:4px;
+    border:none;
+}
+.oblique {
+    font-style:oblique;
+}
+.italic {
+    font-style:italic;
+}

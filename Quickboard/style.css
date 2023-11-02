@@ -1,0 +1,192 @@
+main button {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    padding: 0px 35px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    outline: none;
+    text-align: center;
+    height: 47px;
+    overflow: auto;
+}
+button.clickable:hover {
+    background-color:#44aaff;
+}
+button.clickable:active {
+    background-color:#2288ee;
+}
+button.unclickable:hover {
+    background-color:#555;
+}
+button.unclickable:active {
+    background-color:#555;
+}
+button.unclickable {
+    cursor: not-allowed;
+}
+body {
+    font-family:Comic Sans MS;
+    background-color:#40e0d0;
+    text-align: center;
+}
+textarea{
+    resize: none;
+    font-family:comic sans ms;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */
+  background: #cfd8dc; /* 4 */
+  background-color:coral;
+  position: sticky;
+  top: 0;
+  z-index:1000000000;
+}
+
+nav ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/* 
+  Extra small devices (phones, 600px and down) 
+*/
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  nav li {
+    padding: 0.5rem 0;
+  }
+}
+nav h2 {
+    color:black;
+}
+h1 {
+    border-style:none none solid none;
+    padding:2px;
+}
+footer {
+    position:fixed;
+    bottom:0;
+    right: 0;
+}
+#invis {
+    background:none;
+    border-style:solid;
+}
+#h {
+    display:none;
+}
+nav img {
+    height:10px;
+    width:10px;
+}
+nav button {
+    background:none;
+    border-style:none;
+}
+nav button:hover {
+    background-color:#ee6e40;
+    border-style:solid;
+    border-color:#ee6e40;
+    border-radius:4px;
+    border:none;
+}
+button.clickable2 {
+    background-color:#FF69B4;
+}
+button.clickable2:hover {
+    background-color:#FF7ac5;
+}
+button.clickable2:active {
+    background-color:#ee58a3;
+}
+button.clickable3 {
+    background-color:#32CD32;
+}
+button.clickable3:hover {
+    background-color:#43de43;
+}
+button.clickable3:active {
+    background-color:#21bc21;
+}
+button.clickable4 {
+    background-color:#DC143C;
+}
+button.clickable4:hover {
+    background-color:#fd254d;
+}
+button.clickable4:active {
+    background-color:#cb032b;
+}
+button.clickable5 {
+    background-color:#663399;
+}
+button.clickable5:hover {
+    background-color:#7744aa;
+}
+button.clickable5:active {
+    background-color:#552288;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+#button {
+    background-image:url("https://media.tenor.com/yheo1GGu3FwAAAAC/rick-roll-rick-ashley.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

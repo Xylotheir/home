@@ -1,0 +1,8 @@
+body div.banner {
+    background-image: url('https://codehs.com/uploads/e049165b91f399dad66686ace07ae3bb');
+    /*background-position: center;*/
+    background-size:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 25%;
+}

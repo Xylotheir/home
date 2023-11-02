@@ -1,0 +1,32 @@
+body {
+    background-color:#444;
+    color:lime;
+}
+body.hr {
+    border-color:white;
+}
+nav {
+    background-color:black;
+}
+nav h2, nav a{
+    color:#0f0;
+}
+nav button{
+    filter:invert();
+}
+nav button:hover{
+    background-color:#aaa;
+}
+.banner {
+    width:100%;
+    height:10%;
+    display:flex;
+}
+div.banner1 {
+    background-image: url('banner.jpg');
+    /*background-position: center;*/
+    background-size:100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 25%;
+}

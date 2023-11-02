@@ -1,0 +1,323 @@
+body {
+    font-family:Comic Sans MS;
+    background-color:#40e0d0;
+    color:#191970
+}
+main h1 {
+    color: hsl(240, 64%, 34%);
+}
+main h1.big {
+    font-size: 50px;
+}
+main h2 {
+    color:hsl(300, 80%, 34%);
+}
+main h2.big {
+    font-size: 50px;
+}
+main h3 {
+ color:	hsl(174, 72%, 34%)   
+}
+main h4 {
+    color: hsl(24, 72%, 74%)
+}
+main h5 {
+    color: hsl(324, 72%, 34%)
+}
+main h6 {
+    color:hsl(24, 72%, 34%);
+}
+.b13 {
+    background-color:#30d0c0;
+}
+.b12 {
+    background-color:#40e0d0;
+}
+.b11 {
+    background-color:#51f1e0;
+}
+.b23 {
+    background-color:#7a007a;
+}
+.b22 {
+    background-color:#8b008b;
+}
+.b21 {
+    background-color:#9c119c;
+}
+.b33 {
+    background-color:#080860;
+}
+.b32 {
+    background-color:#191970;
+}
+.b31 {
+    background-color:#2a2a81;
+}
+.b41 {
+    background-color:#f19151;
+}
+.b42 {
+    background-color:#e08040;
+}
+.b43 {
+    background-color:#d07030;
+}
+.b51 {
+    background-color:#f151b1;
+}
+.b52 {
+    background-color:#e040a0;
+}
+.b53 {
+    background-color:#d03090;
+}
+.t3l {
+    color: hsl(240, 64%, 74%);
+}
+.t3d {
+    color: hsl(240, 64%, 34%);
+}
+.t4l {
+    color: hsl(24, 72%, 74%);
+}
+.t4d {
+    color: hsl(24, 72%, 34%);
+}
+.t5l {
+    color: hsl(324, 72%, 74%);
+}
+.t5d {
+    color: hsl(324, 72%, 34%);
+}
+.t1l {
+    color:	hsl(174, 72%, 74%);
+}
+.t1d {
+    color:	hsl(174, 72%, 34%);
+}
+.t2l {
+    color:hsl(300, 80%, 74%);
+}
+.t2d {
+    color:hsl(300, 80%, 34%);
+}
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+.cms {
+    font-family:Comic Sans MS;
+}
+@keyframes rainbow {
+    10% {color:orange;}
+    20% {color:yellow;}
+    30% {width:lightgreen}
+    40% {color:green;}
+    50% {color:cyan;}
+    60% {color:lightblue;}
+    70% {color:blue;}
+    80% {color:indigo;}
+    90% {color:darkpurple;}
+    100% {color:purple;}
+}
+.rainbow { 
+    animation: 3s infinite rainbow;
+}
+.banner {
+    width:100%;
+    height:60%px;
+}
+.nopad {
+    padding-right:0;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex; /* 1 */
+  justify-content: space-between; /* 2 */
+  padding: 1rem 2rem; /* 3 */
+  background: #cfd8dc; /* 4 */
+  background-color:coral;
+  position: sticky;
+  top: 0;
+  z-index:1000000000;
+}
+
+nav ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+/* 
+  Extra small devices (phones, 600px and down) 
+*/
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  nav li {
+    padding: 0.5rem 0;
+  }
+}
+nav h2 {
+    color:black;
+}
+nav img.s {
+    height:10px;
+    width:10px;
+}
+nav button {
+    background:none;
+    border-style:none;
+}
+nav button:hover {
+    background-color:#ee6e40;
+    border-style:solid;
+    border-color:#ee6e40;
+    border-radius:4px;
+    border:none;
+}
+main button {
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    padding: 0px 35px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    outline: none;
+    text-align: center;
+    height: 47px;
+    overflow: auto;
+}
+button.clickable:hover {
+    background-color:#44aaff;
+}
+button.clickable:active {
+    background-color:#2288ee;
+}
+button.unclickable:hover {
+    background-color:#555;
+}
+button.unclickable:active {
+    background-color:#555;
+}
+button.unclickable {
+    cursor: not-allowed;
+}
+footer {
+    position:fixed;
+    bottom:0;
+}
+button.clickable2 {
+    background-color:#FF69B4;
+}
+button.clickable2:hover {
+    background-color:#FF7ac5;
+}
+button.clickable2:active {
+    background-color:#ee58a3;
+}
+button.clickable3 {
+    background-color:#32CD32;
+}
+button.clickable3:hover {
+    background-color:#43de43;
+}
+button.clickable3:active {
+    background-color:#21bc21;
+}
+button.clickable4 {
+    background-color:#DC143C;
+}
+button.clickable4:hover {
+    background-color:#fd254d;
+}
+button.clickable4:active {
+    background-color:#cb032b;
+}
+button.clickableCode {
+    background-color:#2e2e2e;
+    color:#66ff33;
+}
+button.clickableCode:hover {
+    background-color:#2f2f2f;
+    color:red;
+}
+button.clickableCode:active {
+    background-color:black;
+    color:blue;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.center-text {
+    text-align:center;
+}
+.left-text {
+    text-align:left;
+}
+.right-text {
+    text-align:right;
+}
+main {
+    margin:8px;
+}
+.hr {
+    border:0px 0px 2px 0px;
+    border-style:none none solid none;
+    border-color:black;
+}

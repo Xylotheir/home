@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Quickboard</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://codehs.com/uploads/4bda23168e3a65af6077f2c7d4e380aa">
+        <script src="script.js"></script>
+    </head>
+    <body style="height: 10000px;" onload="ban();">
+        <nav>
+            <h2>Quickboard</h2>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#1">Stylized Names</a></li>
+                <li><a href="#2">Text Faces</a></li>
+                <li><a href="#3">Templates</a></li>
+                <li><a href="#4">Characters</a></li>
+                <li><a href="#T">Test</a></li>
+                <li>
+                    <input id="search" type="text" placeholder="Search"> 
+                    <button onclick="window.find(document.querySelector('#search').innerText);">
+                        <img src="https://cdn-icons-png.flaticon.com/512/61/61088.png">
+                    </button>
+                </li>
+            </ul>
+        </nav>
+            <br>
+        <main>
+            <h1 id="1">Name Styles</h1>
+            <br>
+            <button class="clickable copy">
+            𝕋𝕒𝕖𝕘𝕖
+            </button>
+            
+            <button class="clickable copy">
+            𝕿𝖆𝖊𝖌𝖊
+            </button>
+            
+            <button class="clickable copy">
+            ꪻꪖꫀᧁꫀ
+            </button>
+            
+            <button class="clickable copy">
+            ǝɓǝɐ⊥ 
+            </button>
+            
+            <button class="clickable copy">
+            T̸̢͈͑́́͑̾̅͒͝͝͝a̵̧̟͉̿̆͗̃͒e̴͚̼͈̹̹̬̐̍̿g̷̡̹̺͍̰̰̞̭̊̋e̸̢̡̦̳͒̈͒̀͠
+            </button>
+            
+            <button class="clickable copy">
+            🆃🅰🅴🅶🅴
+            </button>
+            
+            <button class="clickable copy">
+            Շคєﻮє
+            </button>
+            
+            <button class="clickable copy">
+            Ⓣⓐⓔⓖⓔ
+            </button>
+            
+            <button class="clickable copy">
+            ɘǫɘɒT
+            </button>
+            
+            <button class="clickable copy">
+            ƬΛΣGΣ
+            </button>
+            
+            <button class="clickable copy">
+            ㄒ卂乇Ꮆ乇
+            </button>
+            
+            <button class="clickable copy">
+            ₮₳Ɇ₲Ɇ
+            </button>
+            
+            <button class="clickable copy">
+            Тαєgє
+            </button>
+            
+            <button class="clickable copy">
+            T̲a̲e̲g̲e̲
+            </button>
+            
+            <button class="clickable copy">
+            𝓣𝓪𝓮𝓰𝓮
+            </button>
+        <div class="tooltip">
+            <button class="unclickable" onclick="no();">
+                Unclickable Button (Because Lol)
+            </button>
+            <span class="tooltiptext">Don't even try.</span>
+        </div>
+            <h1 id="2">Textmojis</h1><br>
+            <button class="clickable2 copy">
+            ツ
+            </button>
+            <button class="clickable2 copy">
+                (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+            </button>
+            <button class="clickable2 copy">
+                ( ͡° ͜ʖ ͡°)
+            </button>
+            <button class="clickable2 copy">
+            •—•
+            </button>
+            <button class="clickable2 copy">
+            (っ ◕‿◕)っ
+            </button>
+            <button class="clickable2 copy">
+                (╯°□°)╯︵ ┻━┻ 
+            </button>
+            <button class="clickable2 copy">
+                ┬──┬ ノ( ゜-゜ノ)
+            </button>
+            <button class="clickable2 copy">
+                ＼(^￢^)／
+            </button>
+            <button class="clickable2 copy">
+                ¯\_(ツ)_/¯
+            </button>
+            <h1 id="3">Templates</h1>
+            <button class="clickable3" onclick="copy();">HTML</button>
+            <h1 id="4">Special Characters</h1>
+            <button class="clickable4 copy">
+                ←
+            </button>
+            <button class="clickable4 copy">
+                ↑
+            </button>
+            <button class="clickable4 copy">
+                →
+            </button>
+            <button class="clickable4 copy">
+                ↓
+            </button>
+            <button class="clickable4 copy">
+                ↖
+            </button>
+            <button class="clickable4 copy">
+                ↗
+            </button>
+            <button class="clickable4 copy">
+                ↘
+            </button>
+            <button class="clickable4 copy">
+                ↙
+            </button>
+            <button class="clickable4 copy">
+                ⇦
+            </button>
+            <button class="clickable4 copy">
+                ⇧
+            </button>
+            <button class="clickable4 copy">
+                ⇨
+            </button>
+            <button class="clickable4 copy">
+                ⇩
+            </button>
+            <button class="clickable4 copy">
+                ⟳
+            </button>
+            <button class="clickable4 copy">
+                §
+            </button>
+            <button class="clickable4 copy">
+                ¶
+            </button>
+            <button class="clickable4 copy">
+                ☠
+            </button>
+            <button class="clickable4 copy">
+                ☀
+            </button>
+            <button class="clickable4 copy">
+              ☁
+            </button>
+            <button class="clickable4 copy">
+                ☘
+            </button>
+            <button class="clickable4 copy">
+                ☮
+            </button>
+            <button class="clickable4 copy">
+                ☹
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                ☺
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                ☻
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                ☼
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                ☽
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                ⚙
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                🗸
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                🕷
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                🕸
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                🗡
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                ⛏
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                –
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                —
+            </button>
+            </button>
+        <div class="tooltip">
+            <button class="clickable4 copy">
+                ⸻
+            </button>
+            <span class="tooltiptext">Question: When is this ever useful? It's like 9x the size of a normal dash</span>
+        </div>
+            </button>
+            <button class="clickable4 copy">
+                •
+            </button>
+            </button>
+            <button class="clickable4 copy">
+                ඞ
+            </button>
+        <div class="tooltip">
+            <button class="clickable4 copy">
+                ﻿
+            </button>
+            <span class="tooltiptext">This button doesn't do nothing, its a feff</span>
+        </div>
+        <br>
+        <h1>Misc.</h1>
+            <button class="clickable5" onclick="copy('chrome://inducebrowsercrashforrealz/');">
+                ( •̀ᴗ•́ )و ̑̑
+            </button>
+            <h1 id="T">Test Area</h1>
+            <br>
+            <textarea rows=5 cols=50 placeholder="Test Here"></textarea>
+            <br>
+        <footer>
+            <button class="clickable" id="invis" onclick="window.scroll({top: 0, left: 0, behavior: 'smooth'});">
+            Scroll to top
+            </button>
+        </footer>
+        <div id="h"><!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="icon" href="favicon.svg">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1></h1>
+    </body>
+</html>
+-->
+        <div>
+        </main>
+    </body>
+</html>
